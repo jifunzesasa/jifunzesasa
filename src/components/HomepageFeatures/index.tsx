@@ -2,40 +2,44 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
-const FeatureList = [
+type FeatureItem = {
+  title: string;
+  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  description: JSX.Element;
+};
+
+const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Simplified Concepts',
+    Svg: require('@site/static/img/undraw_dream_world_re_x2yl.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Simplified concepts to help you understand the basics of any technology.
       </>
     ),
   },
   {
     title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/undraw_experience_design_re_dmqq.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Stay in the zone and focus on what matters. Covering all the basics and
+        essentials to get you started.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Modern Technologies',
+    Svg: require('@site/static/img/undraw_startup_life_re_8ow9.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Learn cutting-edge front-end tools like React, Next.js, Laravel.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({title, Svg, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
@@ -49,7 +53,7 @@ function Feature({Svg, title, description}) {
   );
 }
 
-export default function HomepageFeatures() {
+export default function HomepageFeatures(): JSX.Element {
   return (
     <section className={styles.features}>
       <div className="container">

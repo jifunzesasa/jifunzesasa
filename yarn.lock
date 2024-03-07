@@ -1574,6 +1574,11 @@
     fs-extra "^11.1.1"
     tslib "^2.6.0"
 
+"@docusaurus/tsconfig@3.1.1":
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@docusaurus/tsconfig/-/tsconfig-3.1.1.tgz#ee2297ea94f4059b69f4b9bff238c212eede65e9"
+  integrity sha512-FTBuY3KvaHfMVBgvlPmDQ+KS9Q/bYtVftq2ugou3PgBDJoQmw2aUZ4Sg15HKqLGbfIkxoy9t6cqE4Yw1Ta8Q1A==
+
 "@docusaurus/types@3.1.1":
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/@docusaurus/types/-/types-3.1.1.tgz#747c9dee8cf7c3b0e5ee7351bac5e9c4fdc7f259"
@@ -7885,6 +7890,11 @@ typedarray-to-buffer@^3.1.5:
   integrity sha512-zdu8XMNEDepKKR+XYOXAVPtWui0ly0NtohUscw+UmaHiAWT8hrV1rr//H6V+0DvJ3OQ19S979M0laLfX8rm82Q==
   dependencies:
     is-typedarray "^1.0.0"
+
+typescript@~5.2.2:
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.2.2.tgz#5ebb5e5a5b75f085f22bc3f8460fba308310fa78"
+  integrity sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==
 
 undici-types@~5.26.4:
   version "5.26.5"
