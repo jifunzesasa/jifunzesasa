@@ -24,23 +24,27 @@ const config: Config = {
       'classic',
       {
         docs: {
-          sidebarPath: './sidebars.ts',          
+          sidebarPath: './sidebars.ts',
           editUrl:
             'https://github.com/jifunzesasa/jifunzesasa.github.io/tree/main/',
         },
         blog: {
-          showReadingTime: true,          
+          showReadingTime: true,
           editUrl:
             'https://github.com/jifunzesasa/jifunzesasa.github.io/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
         },
+        gtag: {
+          trackingID: 'G-372VJS6RJH',
+          anonymizeIP: true,
+        },
       } satisfies Preset.Options,
     ],
   ],
 
-  themeConfig: {    
+  themeConfig: {
     image: 'img/social.png',
     navbar: {
       title: '=/ Jifunze Sasa',
