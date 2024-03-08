@@ -53,7 +53,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Tutorials',
         },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
@@ -67,10 +67,10 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Learn',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Guides',
               to: '/docs/intro',
             },
           ],
@@ -91,9 +91,14 @@ const config: Config = {
               label: 'Blog',
               to: '/blog',
             },
+          ],
+        },
+        {
+          title: 'About',
+          items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/jifunzesasa',
+              label: 'Our Story',
+              to: '/about',
             },
           ],
         },
