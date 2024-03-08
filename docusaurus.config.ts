@@ -41,7 +41,7 @@ const config: Config = {
   ],
 
   themeConfig: {    
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/social.png',
     navbar: {
       title: '=/ Jifunze Sasa',
       logo: {
